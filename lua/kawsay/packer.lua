@@ -34,6 +34,7 @@ return require('packer').startup(function(use)
 		  vim.cmd('colorscheme rose-pine')
 	  end
   })
+  use('Mofiqul/vscode.nvim')
 
   --
   -- Parser & syntax highlighting helper
@@ -76,4 +77,26 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'}, -- Optional
 	  }
   }
+
+
+  --
+  -- Rails support
+  --
+  use('tpope/vim-rails')
+
+  --
+  -- Autocomplete blocks
+  --
+  use('tpope/vim-endwise')
+
+  --
+  -- Identify trailing spaces
+  --
+  -- TODO: Set Github
+  -- use('bronson/vim-trailing-whitespaces')
+
+  --
+  -- Allow # and * to work with visual selections
+  --
+  use('nelstrom/vim-visual-star-search')
 end)
