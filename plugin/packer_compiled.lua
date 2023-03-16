@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-treesitter-endwise"] = {
+    loaded = true,
+    path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/nvim-treesitter-endwise",
+    url = "https://github.com/RRethy/nvim-treesitter-endwise"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -169,11 +174,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["vim-endwise"] = {
-    loaded = true,
-    path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/vim-endwise",
-    url = "https://github.com/tpope/vim-endwise"
   },
   ["vim-fugitive"] = {
     loaded = true,

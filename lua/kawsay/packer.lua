@@ -41,6 +41,7 @@ return require('packer').startup(function(use)
   --
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
+  use('RRethy/nvim-treesitter-endwise')
 
   --
   -- Easy file navigation
@@ -83,11 +84,6 @@ return require('packer').startup(function(use)
   -- Rails support
   --
   use('tpope/vim-rails')
-
-  --
-  -- Autocomplete blocks
-  --
-  use('tpope/vim-endwise')
 
   --
   -- Identify trailing spaces
