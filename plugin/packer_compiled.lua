@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/nvim-treesitter-endwise",
     url = "https://github.com/RRethy/nvim-treesitter-endwise"
   },
+  ["nvim-ufo"] = {
+    loaded = true,
+    path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/nvim-ufo",
+    url = "https://github.com/kevinhwang91/nvim-ufo"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -118,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["promise-async"] = {
+    loaded = true,
+    path = "/Users/kawsay/.local/share/nvim/site/pack/packer/start/promise-async",
+    url = "https://github.com/kevinhwang91/promise-async"
   },
   ["rose-pine"] = {
     config = { "\27LJ\2\nœ\1\0\0\4\0\t\0\r6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\2B\0\2\0016\0\6\0009\0\a\0'\2\b\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\vgroups\1\0\1\vmethod\tfoam\1\0\1\17dark_variant\tmoon\nsetup\14rose-pine\frequire\0" },

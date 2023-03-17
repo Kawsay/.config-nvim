@@ -76,4 +76,9 @@ return require('packer').startup(function(use)
   -- Allow # and * to work with visual selections
   --
   use('nelstrom/vim-visual-star-search')
+
+  --
+  -- Fold
+  --
+  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
 end)
