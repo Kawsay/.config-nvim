@@ -1,3 +1,6 @@
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
@@ -35,4 +38,5 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.g.mapleader = " "
+-- Highlight problematic whitespaces
+vim.opt.list = true

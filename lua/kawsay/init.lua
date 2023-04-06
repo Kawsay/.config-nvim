@@ -1,6 +1,6 @@
+require("kawsay.set")
 require("kawsay.packer")
 require("kawsay.vscode")
 require("kawsay.rose_pine")
 require("kawsay.remap")
-require("kawsay.set")
 require("kawsay.autocmd")
